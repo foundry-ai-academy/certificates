@@ -6,8 +6,8 @@
 ![Certificate Image](trainee-joran-saillier-2025-07.png)
 
 ### Certificate Details
-- **Certificate ID**: `FoudryAI-C1`
-- **Certificate Holder ID**: `FoudryAI-C1/trainee-joran-saillier-2025-07`
+- **Certificate ID**: `FA-C001`
+- **Certificate Holder ID**: `FA-C001/trainee-joran-saillier-2025-07`
 
 ### Course Information
 - **Course**: [Data & AI Engineering](https://www.foundry.academy/)
