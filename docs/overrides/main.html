@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  
+  <!-- Open Graph meta tags for social media previews -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Foundry AI Academy Certificates">
+  
+  {% if page and page.title %}
+    <meta property="og:title" content="{{ page.title }} - Foundry AI Academy">
+  {% else %}
+    <meta property="og:title" content="Foundry AI Academy Certificates">
+  {% endif %}
+  
+  {% if page and page.meta and page.meta.description %}
+    <meta property="og:description" content="{{ page.meta.description }}">
+  {% else %}
+    <meta property="og:description" content="Official course completion certificates and credential verification system for Foundry AI Academy">
+  {% endif %}
+  
+  {% if page and page.canonical_url %}
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  {% endif %}
+  
+  <!-- Dynamic thumbnail based on page -->
+  {% if page and page.file and page.file.src_path and page.file.src_path.startswith('c001/') %}
+    {% set cert_image = page.file.src_path | replace('.md', '.png') %}
+    <meta property="og:image" content="{{ config.site_url }}/{{ cert_image }}">
+  {% else %}
+    <meta property="og:image" content="https://raw.githubusercontent.com/foundry-ai-academy/fa-cdn/1.0.0/images/FoundryAI_academy_logo_on_yellow_space.png">
+  {% endif %}
+  
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+{% endblock %}
+
+{% block outdated %}
+  You're not viewing the latest version.
+  <a href="{{ '../' ~ base_url }}">
+    <strong>Click here to go to latest.</strong>
+  </a>
+{% endblock %}

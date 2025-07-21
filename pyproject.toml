@@ -1,0 +1,31 @@
+[project]
+name = "certificates"
+dynamic = ["version"]
+description = "Hub of certificates for Foundry AI Academy courses"
+authors = [
+    {name = "Foundry AI Academy", email = "minh@foundry.ai"}
+]
+maintainers = [
+    {name = "Foundry AI Academy", email = "minh@foundry.ai"}
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+urls = {Homepage = "https://github.com/foundry-ai-academy/certificates", Repository = "https://github.com/foundry-ai-academy/certificates", Documentation = "https://github.com/foundry-ai-academy/certificates"}
+requires-python = ">=3.9"
+dependencies = [
+    "mkdocs >=1.4.2",
+    "mkdocs-minify-plugin >=0.6.4",
+    "mkdocs-material >=9.1.5",
+    "mike >=1.1.2",
+    "poethepoet>=0.36.0",
+]
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.poe.tasks]
+build-doc-and-serve = [
+  {cmd = "mkdocs build"},
+  {cmd = "mkdocs serve"}
+]
