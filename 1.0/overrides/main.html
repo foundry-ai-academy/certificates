@@ -28,7 +28,7 @@
     {% set cert_image = page.file.src_path | replace('.md', '.png') %}
     <meta property="og:image" content="{{ config.site_url }}/{{ cert_image }}">
   {% else %}
-    <meta property="og:image" content="{{ config.site_url }}assets/logo.png">
+    <meta property="og:image" content="https://raw.githubusercontent.com/foundry-ai-academy/fa-cdn/1.0.0/images/FoundryAI_academy_logo_on_yellow_space.png">
   {% endif %}
   
   <meta property="og:image:width" content="1200">
