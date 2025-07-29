@@ -1,0 +1,120 @@
+/* Foundry AI Academy Light Color Scheme for MkDocs Material */
+
+/* Light scheme (foundry-light) */
+[data-md-color-scheme="foundry-light"] {
+  /* Primary colors */
+  --md-primary-fg-color: #000000;
+  --md-primary-fg-color--light: #333333;
+  --md-primary-fg-color--dark: #000000;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: #ffffff;
+  
+  /* Accent colors - Foundry golden yellow */
+  --md-accent-fg-color: #fbab00;
+  --md-accent-fg-color--transparent: rgba(251, 171, 0, 0.1);
+  --md-accent-bg-color: #ffffff;
+  --md-accent-bg-color--light: #ffffff;
+  
+  /* Background colors */
+  --md-default-fg-color: rgba(0, 0, 0, 0.87);
+  --md-default-fg-color--light: rgba(0, 0, 0, 0.54);
+  --md-default-fg-color--lighter: rgba(0, 0, 0, 0.32);
+  --md-default-fg-color--lightest: rgba(0, 0, 0, 0.07);
+  --md-default-bg-color: #ffffff;
+  --md-default-bg-color--light: #ffffff;
+  --md-default-bg-color--lighter: #ffffff;
+  --md-default-bg-color--lightest: #ffffff;
+  
+  /* Code colors */
+  --md-code-fg-color: #000000;
+  --md-code-bg-color: #f5f5f5;
+  --md-code-hl-color: rgba(251, 171, 0, 0.2);
+  --md-code-hl-number-color: #d52a2a;
+  --md-code-hl-special-color: #db1457;
+  --md-code-hl-function-color: #a846b9;
+  --md-code-hl-constant-color: #6e59d9;
+  --md-code-hl-keyword-color: #3f6ec6;
+  --md-code-hl-string-color: #1c7d4d;
+  --md-code-hl-name-color: var(--md-default-fg-color);
+  --md-code-hl-operator-color: var(--md-default-fg-color--light);
+  --md-code-hl-punctuation-color: var(--md-default-fg-color--light);
+  --md-code-hl-comment-color: var(--md-default-fg-color--light);
+  --md-code-hl-generic-color: var(--md-default-fg-color--light);
+  --md-code-hl-variable-color: var(--md-default-fg-color--light);
+  
+  /* Typeset colors */
+  --md-typeset-color: var(--md-default-fg-color);
+  --md-typeset-a-color: #fbab00;
+  --md-typeset-mark-color: rgba(251, 171, 0, 0.2);
+  --md-typeset-del-color: rgba(245, 80, 61, 0.15);
+  --md-typeset-ins-color: rgba(11, 213, 112, 0.15);
+  
+  /* Typeset table colors */
+  --md-typeset-table-color: rgba(0, 0, 0, 0.12);
+  --md-typeset-table-color--light: rgba(0, 0, 0, 0.035);
+  
+  /* Admonition colors */
+  --md-admonition-fg-color: var(--md-default-fg-color);
+  --md-admonition-bg-color: var(--md-default-bg-color);
+  
+  /* Footer colors */
+  --md-footer-fg-color: #ffffff;
+  --md-footer-fg-color--light: rgba(255, 255, 255, 0.7);
+  --md-footer-fg-color--lighter: rgba(255, 255, 255, 0.3);
+  --md-footer-bg-color: rgba(0, 0, 0, 0.87);
+  --md-footer-bg-color--dark: rgba(0, 0, 0, 0.32);
+  
+  /* Shadow depth */
+  --md-shadow-z1: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  --md-shadow-z2: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+  --md-shadow-z3: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+  
+  /* Custom Foundry AI variables */
+  --fa-link-color: #fbab00;
+  --fa-link-hover: #fbab00;
+}
+
+/* Hyperlink styling - Only for content links */
+[data-md-color-scheme="foundry-light"] .md-content a,
+[data-md-color-scheme="foundry-light"] .md-typeset a {
+  color: var(--fa-link-color) !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+}
+
+[data-md-color-scheme="foundry-light"] .md-content a:hover,
+[data-md-color-scheme="foundry-light"] .md-typeset a:hover {
+  color: var(--fa-link-hover) !important;
+  text-decoration: underline !important;
+}
+
+/* Navigation styling */
+[data-md-color-scheme="foundry-light"] .md-nav__link:hover,
+[data-md-color-scheme="foundry-light"] .md-nav__link:focus {
+  color: var(--fa-link-color) !important;
+}
+
+[data-md-color-scheme="foundry-light"] .md-nav__link--active {
+  color: var(--fa-link-color) !important;
+  font-weight: bold !important;
+}
+
+/* PDF Download button styling */
+[data-md-color-scheme="foundry-light"] .md-button[href$=".pdf"],
+[data-md-color-scheme="foundry-light"] a[href$=".pdf"] {
+  background-color: var(--fa-link-color) !important;
+  border-color: var(--fa-link-color) !important;
+  color: #000000 !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+}
+
+[data-md-color-scheme="foundry-light"] .md-button[href$=".pdf"]:hover,
+[data-md-color-scheme="foundry-light"] a[href$=".pdf"]:hover {
+  background-color: var(--fa-link-color) !important;
+  border-color: var(--fa-link-color) !important;
+  color: #ffffff !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 2px 8px rgba(251, 171, 0, 0.3) !important;
+}
