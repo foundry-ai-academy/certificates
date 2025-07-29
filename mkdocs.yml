@@ -1,23 +1,29 @@
 site_name: Foundry AI Academy Certificates
-site_url: https://certificates.foundryai.academy/
+site_url: https://certs.foundry.academy/
 site_author: Foundry AI Academy
 site_description: Official course completion certificates and credential verification system for Foundry AI Academy
 
 copyright: Copyright &copy; 2024 Foundry AI Academy
 
 nav:
-  - Foundry AI Cohort 001:
-    - "Dat Nguyen": c001/trainee-dat-nguyen-2025-07.md
-    - "Joran Saillier": c001/trainee-joran-saillier-2025-07.md
-    - "Minh Duc Le Tien": c001/trainee-minh-duc-le-tien-2025-07.md
-    - "Nguyen Le Ngoc": c001/trainee-nguyen-le-ngoc-2025-07.md
-    - "Nhat Lam Nguyen": c001/trainee-nhat-lam-nguyen-2025-07.md
-    - "Nhu Tran": c001/trainee-nhu-tran-2025-07.md
-    - "Nikolay Galstukov": c001/trainee-nikolay-galstukov-2025-07.md
-    - "Sumit Kamra": c001/trainee-sumit-kamra-2025-07.md
-    - "Tan Nguyen": c001/trainee-tan-nguyen-2025-07.md
-    - "Tin Nguyen": c001/trainee-tin-nguyen-2025-07.md
-    - "YinVang Ho": c001/trainee-yinvang-ho-2025-07.md
+  - Intake 202503:
+    - Cohort 001:
+      - "Dat Nguyen": c001/trainee-dat-nguyen-2025-07.md
+      - "Joran Saillier": c001/trainee-joran-saillier-2025-07.md
+      - "Minh Duc Le Tien": c001/trainee-minh-duc-le-tien-2025-07.md
+      - "Nguyen Le Ngoc": c001/trainee-nguyen-le-ngoc-2025-07.md
+      - "Nhat Lam Nguyen": c001/trainee-nhat-lam-vo-2025-07.md
+      - "Nhu Tran": c001/trainee-nhu-tran-2025-07.md
+      - "Nikolay Galstukov": c001/trainee-nikolay-galstukov-2025-07.md
+      - "Sumit Kamra": c001/trainee-sumit-kamra-2025-07.md
+      - "Tan Nguyen": c001/trainee-tan-nguyen-2025-07.md
+      - "Tin Nguyen": c001/trainee-tin-nguyen-2025-07.md
+      - "YinVang Ho": c001/trainee-yinvang-ho-2025-07.md
+  - Intake 202509:
+    - Cohort 002:
+      - "Minh Ngo": c002/trainee-minh-ngo-2026-02.md
+    - Cohort 003:
+      - "Jane Smith": c003/trainee-jane-smith-2026-03.md
 
 theme:
   name: material
@@ -41,18 +47,19 @@ theme:
 
   palette:
     - media: "(prefers-color-scheme)"
+      scheme: foundry-light
       primary: black
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
+      scheme: foundry-light
       primary: black
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+      scheme: foundry-dark
       primary: black
       toggle:
         icon: material/brightness-4
@@ -85,7 +92,9 @@ extra:
       link: https://www.linkedin.com/school/foundry-ai-academy
 
 extra_css:
-  - assets/css/theme.css
+  - assets/css/foundry-light.css
+  - assets/css/foundry-dark.css
+  - assets/css/custom.css
 
 extra_javascript:
   - assets/js/custom.js

@@ -1,14 +1,14 @@
 # Certificate of Achievement: Data & AI Engineering Course v1
 
-## Awarded to **Tan Nguyen**
+## Awarded to **Nhat Lam Nguyen**
 
-![Certificate Image](trainee-tan-nguyen-2025-07.png)
+![Certificate Image](trainee-nhat-lam-vo-2025-07.png)
 
-[Download Certificate (PDF) :fontawesome-solid-download:](trainee-tan-nguyen-2025-07.pdf){ .md-button .md-button--primary }
+[Download Certificate (PDF) :fontawesome-solid-download:](trainee-nhat-lam-vo-2025-07.pdf){ .md-button .md-button--primary }
 
 ### Certificate Details
 - **Certificate ID**: `FA-C001`
-- **Certificate Holder ID**: `FA-C001/trainee-tan-nguyen-2025-07`
+- **Certificate Holder ID**: `FA-C001/trainee-nhat-lam-vo-2025-07`
 
 ### Course Information
 - **Course**: [Data & AI Engineering Course v1](https://www.foundry.academy/)
@@ -21,7 +21,7 @@
 - **Valid Until**: No expiration
 
 ### Comments
-We proudly commend Tan Nguyen for their outstanding achievement and successful completion of the Data & AI Engineering Course v1, demonstrating excellence, dedication, and a commitment to continuous learning.
+We proudly commend Nhat Lam Nguyen for their outstanding achievement and successful completion of the Data & AI Engineering Course v1, demonstrating excellence, dedication, and a commitment to continuous learning.
 
 ---
 

@@ -57,3 +57,4 @@ jobs:
       - name: Publish site
         run: |
           uv run mike deploy --push --update-aliases ${{ inputs.version || 'latest' }} latest
+          uv run mike set-default --push latest
