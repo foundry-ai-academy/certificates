@@ -56,12 +56,5 @@ jobs:
 
       - name: Publish site
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            uv run mike deploy --push --update-aliases ${{ inputs.version }} latest
-          else
-            # Extract version from tag (remove 'v' prefix if present)
-            VERSION=${GITHUB_REF#refs/tags/}
-            VERSION=${VERSION#v}
-            uv run mike deploy --push --update-aliases $VERSION latest
-          fi
+          uv run mike deploy --push --update-aliases ${{ inputs.version || 'latest' }} latest
           uv run mike set-default --push latest
