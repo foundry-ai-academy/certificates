@@ -12,7 +12,7 @@ nav:
       - "Joran Saillier": c001/trainee-joran-saillier-2025-07.md
       - "Minh Duc Le Tien": c001/trainee-minh-duc-le-tien-2025-07.md
       - "Nguyen Le Ngoc": c001/trainee-nguyen-le-ngoc-2025-07.md
-      - "Nhat Lam Nguyen": c001/trainee-nhat-lam-vo-2025-07.md
+      - "Nhat Lam Vo": c001/trainee-nhat-lam-vo-2025-07.md
       - "Nhu Tran": c001/trainee-nhu-tran-2025-07.md
       - "Nikolay Galstukov": c001/trainee-nikolay-galstukov-2025-07.md
       - "Sumit Kamra": c001/trainee-sumit-kamra-2025-07.md
@@ -24,7 +24,6 @@ nav:
       - "Minh Ngo": c002/trainee-minh-ngo-2026-02.md
     - Cohort 003:
       - "Jane Smith": c003/trainee-jane-smith-2026-03.md
-
 theme:
   name: material
   custom_dir: docs/overrides
