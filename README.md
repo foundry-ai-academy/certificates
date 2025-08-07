@@ -1,4 +1,5 @@
 ![Foundry AI Academy Logo](https://raw.githubusercontent.com/foundry-ai-academy/fa-cdn/1.0.0/images/FoundryAI_academy_logo_on_yellow_space.png)
+---
 
 # Foundry AI Academy Certification Hub
 
