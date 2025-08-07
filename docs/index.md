@@ -23,7 +23,9 @@ For more information about our courses, visit [foundry.academy](https://www.foun
 
 ---
 © 2024 Foundry AI Academy.
+
 All rights reserved.
+
 This material is confidential and proprietary to Foundry AI Academy. It may not be reproduced, transmitted, or stored, in whole or in part, in any form or by any means without written permission from Foundry AI Academy.
 
 ![Foundry AI Academy Logo](https://raw.githubusercontent.com/foundry-ai-academy/fa-cdn/1.0.0/images/FoundryAI_academy_logo_symbol_yellow_space.png)
